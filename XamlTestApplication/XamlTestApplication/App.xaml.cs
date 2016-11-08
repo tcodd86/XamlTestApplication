@@ -13,7 +13,8 @@ namespace XamlTestApplication
         {
             InitializeComponent();
 
-            MainPage = new XamlTestApplication.MainPage();
+            //MainPage = new XamlTestApplication.MainPage();
+            MainPage = new NavigationPage(new GridPage());
         }
 
         protected override void OnStart()

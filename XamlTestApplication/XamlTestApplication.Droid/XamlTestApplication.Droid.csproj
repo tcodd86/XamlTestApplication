@@ -126,6 +126,17 @@
       <Name>XamlTestApplication</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\apply.png" />
+    <AndroidResource Include="Resources\drawable\billcalendar.png" />
+    <AndroidResource Include="Resources\drawable\cancel.png" />
+    <AndroidResource Include="Resources\drawable\cashcheck.png" />
+    <AndroidResource Include="Resources\drawable\contactus.png" />
+    <AndroidResource Include="Resources\drawable\logo.png" />
+    <AndroidResource Include="Resources\drawable\profile.png" />
+    <AndroidResource Include="Resources\drawable\submitpayment.png" />
+    <AndroidResource Include="Resources\drawable\yourmail.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.0.0.6482\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.0.0.6482\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

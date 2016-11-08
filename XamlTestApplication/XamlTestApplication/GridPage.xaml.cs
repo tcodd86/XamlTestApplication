@@ -3,20 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
 
 namespace XamlTestApplication
 {
-    public partial class MainPage : ContentPage
+    public partial class GridPage// : ContentPage
     {
-        public MainPage()
+        public GridPage()
         {
             InitializeComponent();
-        }
-
-        public void OnClick(object o, EventArgs e)
-        {
-            message.Text = "Goodbye Pluralsight!!";
         }
     }
 }

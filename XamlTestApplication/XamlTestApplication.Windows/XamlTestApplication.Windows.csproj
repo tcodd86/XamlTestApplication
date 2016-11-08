@@ -121,10 +121,19 @@
     <None Include="Windows_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="apply.png" />
     <Content Include="Assets\Logo.scale-100.png" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="billcalendar.png" />
+    <Content Include="cancel.png" />
+    <Content Include="cashcheck.png" />
+    <Content Include="contactus.png" />
+    <Content Include="logo.png" />
+    <Content Include="profile.png" />
+    <Content Include="submitpayment.png" />
+    <Content Include="yourmail.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
